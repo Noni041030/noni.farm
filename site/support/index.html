@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>support — noni</title>
+<meta name="description" content="Support and frequently asked questions for noni, the on-device AI app for iPhone.">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+</head>
+<body>
+
+<header class="site">
+    <div class="container">
+        <a class="wordmark" href="/">noni</a>
+        <nav>
+            <a href="/support/">support</a>
+            <a href="/privacy/">privacy</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <article class="prose">
+            <section>
+                <h1>support</h1>
+                <p>Questions, bugs, ideas — write to
+                <a href="mailto:support@noni.farm">support@noni.farm</a>.
+                noni is built by a solo developer, so replies are personal
+                but can take a day or two.</p>
+                <p class="caption">this page covers noni 1.0.0 for iPhone (iOS 17 or later).</p>
+            </section>
+
+            <hr class="hairline">
+
+            <section>
+                <h3>why is the first download about 1.1 GB?</h3>
+                <p>The download is the AI itself. The starter pack is two
+                open-weight models — qwen3 0.6b (~350 MB) to route requests
+                and llama 3.2 1b (~710 MB) for everyday questions — fetched
+                directly from Hugging Face. Wi-Fi is recommended; downloads
+                continue in the background and resume if interrupted.</p>
+            </section>
+
+            <section>
+                <h3>does noni work offline?</h3>
+                <p>Yes. Once a model is downloaded, everything runs on your
+                iPhone — airplane mode included. The network is only ever used
+                to download model files.</p>
+            </section>
+
+            <section>
+                <h3>why is the first reply slow?</h3>
+                <p>The first message after opening the app loads the model into
+                memory, which can take a few seconds. After that the model
+                stays warm and replies start streaming almost immediately.
+                Expect roughly 10–30 tokens per second on recent iPhones —
+                small local models trade some speed and depth for total
+                privacy.</p>
+            </section>
+
+            <section>
+                <h3>which iPhones are supported?</h3>
+                <p>Any iPhone running iOS 17 or later. The starter models are
+                sized for every supported device; the library labels the
+                larger options (qwen3 1.7b, llama 3.2 3b) that want a
+                high-memory iPhone such as the 15 Pro or newer.</p>
+            </section>
+
+            <section>
+                <h3>how do i delete models or free up space?</h3>
+                <p>On the models tab, every downloaded model shows its size on
+                disk next to a delete button, and the storage summary at the
+                top shows the total. Deleting a model frees its space
+                immediately; you can re-download it any time.</p>
+            </section>
+
+            <section>
+                <h3>how do i delete all my data?</h3>
+                <p>Swipe to delete any conversation, use "clear all chats" in
+                settings, or simply delete the app. Everything noni knows
+                lives on your device — there is no server copy of anything,
+                so deleting the app removes all of it.</p>
+            </section>
+        </article>
+    </div>
+</main>
+
+<footer class="site">
+    <hr class="hairline">
+    <div class="container">
+        <span>© 2026 noni</span>
+        <a href="/support/">support</a>
+        <a href="/privacy/">privacy</a>
+        <span>made for iPhone</span>
+    </div>
+</footer>
+
+</body>
+</html>
