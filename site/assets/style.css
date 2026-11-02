@@ -181,7 +181,11 @@ main section {
     }
 
     .hero .wordmark {
-        font-size: 48px;
+        font-size: 60px;
+    }
+
+    .hero .app-store-badge img {
+        height: 40px;
     }
 }
 
@@ -216,8 +220,10 @@ main section {
     opacity: 0.75;
 }
 
+/* A little narrower than the wordmark above it. Apple's badge guidelines
+   set a 40px minimum onscreen height. */
 .app-store-badge img {
-    height: 50px;
+    height: 42px;
     width: auto;
 }
 /* Hairlines */
