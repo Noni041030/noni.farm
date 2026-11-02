@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>noni — small models. working together. on your iPhone.</title>
-<meta name="description" content="noni is on-device AI orchestration: several small open-weight models collaborate locally on your iPhone. Private, offline, free.">
+<title>noni</title>
+<meta name="description" content="noni is a chat app that runs small open AI models on your device. No account, no tracking, and it works offline.">
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -27,55 +27,51 @@
     <div class="container">
         <section class="hero">
             <span class="wordmark">noni</span>
-            <p class="tagline">small models. working together. on your&nbsp;iPhone.</p>
-            <p class="lede">on-device AI orchestration — several small open-weight models
-            collaborate locally, and nothing you type ever leaves your&nbsp;phone.</p>
-            <a class="app-store-badge" href="https://apps.apple.com/app/noni-ai-assistant/id6788587285" aria-label="Download noni on the App Store">
-                <picture>
-                    <source srcset="/assets/app-store-badge-white.svg" media="(prefers-color-scheme: dark)">
-                    <img src="/assets/app-store-badge-black.svg" alt="Download on the App Store" width="150" height="50">
-                </picture>
-            </a>
-            <p class="caption">on the App Store — free, iPhone, iOS&nbsp;17+</p>
+            <p class="lede">a chat app that runs small AI models on your device.
+            no account, no tracking, and it works offline.</p>
+            <a class="store-button" href="https://apps.apple.com/app/noni-ai-assistant/id6788587285">download on the app store</a>
+            <p class="caption">free</p>
         </section>
 
         <hr class="hairline">
 
         <section>
-            <h2>private by design</h2>
-            <p>Zero data collection — no account, no analytics, no tracking.
-            Conversations are stored only on your device. The network is used
-            for one thing: downloading model weights from Hugging&nbsp;Face.</p>
+            <h2>private</h2>
+            <p>There's no account and no analytics. Your chats are saved on
+            your device and nowhere else. noni only goes online to download
+            models from Hugging&nbsp;Face.</p>
         </section>
 
         <section>
-            <h2>a team, not a single model</h2>
-            <p>A tiny router reads each request and hands it to the right
-            specialist — general chat, coding, or writing. Relay mode chains
-            models into pipelines like draft&nbsp;→&nbsp;polish; council mode has two
-            models answer while a third merges the best of both.</p>
+            <h2>several models in one chat</h2>
+            <p>A small router model reads your message and passes it to the
+            model that suits it best: general questions, code, or writing. In
+            relay mode one model writes a draft and another polishes it. In
+            council mode two models answer and a third combines their
+            answers.</p>
         </section>
 
         <section>
-            <h2>yours, offline</h2>
-            <p>After a model is downloaded, it works in airplane mode. Models
-            are free, open-weight, and quantized to 4-bit for Apple silicon —
-            small enough to live on your phone, quick enough to stream.</p>
+            <h2>works offline</h2>
+            <p>Once a model is downloaded, noni works in airplane mode. The
+            models are free and open, and compressed to 4-bit so they stay
+            small and reply quickly.</p>
         </section>
 
         <figure class="shot">
             <picture>
                 <source srcset="/assets/screenshot-chat-dark.png" media="(prefers-color-scheme: dark)">
-                <img src="/assets/screenshot-chat-light.png" width="800" height="1738"
+                <img src="/assets/screenshot-chat-light.png" width="800" height="1739"
                      alt="a noni chat answering a coding question with a copyable code card">
             </picture>
-            <figcaption class="caption">the coding specialist answering, entirely on-device</figcaption>
+            <figcaption class="caption">the coding model answering a question, offline</figcaption>
         </figure>
 
         <section>
-            <p class="secondary">the starter pack — qwen3&nbsp;0.6b as router and
-            llama&nbsp;3.2&nbsp;1b for everyday questions — is about 1.1&nbsp;GB.
-            gemma&nbsp;3, qwen2.5&nbsp;coder and larger llama models are one tap away.</p>
+            <p class="secondary">the starter pack is about 1.1&nbsp;GB: qwen3&nbsp;0.6b
+            to route messages and llama&nbsp;3.2&nbsp;1b for everyday questions.
+            you can add gemma&nbsp;3, qwen2.5&nbsp;coder and larger llama models from
+            the models tab.</p>
         </section>
     </div>
 </main>
@@ -86,7 +82,6 @@
         <span>© 2026 noni</span>
         <a href="/support/">support</a>
         <a href="/privacy/">privacy</a>
-        <span>made for iPhone</span>
     </div>
 </footer>
 
