@@ -221,6 +221,16 @@ main section {
     width: auto;
 }
 
+/* The main description, with the download badge right under it. */
+
+.intro p {
+    font-size: 19px;
+}
+
+.intro .app-store-badge {
+    margin-top: 8px;
+}
+
 /* Hairlines */
 
 .hairline {
