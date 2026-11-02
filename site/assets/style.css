@@ -203,6 +203,24 @@ main section {
     background: var(--surface);
 }
 
+/* Official Apple App Store badge — black on light, white on dark. */
+
+.app-store-badge {
+    display: inline-block;
+    margin-top: 32px;
+    line-height: 0;
+    transition: opacity 0.2s ease;
+}
+
+.app-store-badge:hover {
+    opacity: 0.75;
+}
+
+.app-store-badge img {
+    height: 50px;
+    width: auto;
+}
+
 /* Hairlines */
 
 .hairline {
